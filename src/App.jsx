@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Index } from "./components"
+import { Index } from "./components/Index"
 import { AirdropComponent } from "./components/AirdropComponent"
 import { ConnectionProvider, WalletProvider } from "@solana/wallet-adapter-react"
 import {WalletModalProvider, WalletMultiButton} from "@solana/wallet-adapter-react-ui"
